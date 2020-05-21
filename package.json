@@ -1,0 +1,21 @@
+{
+  "name": "prismajs",
+  "version": "1.0.0",
+  "description": "Wrapper for Prismalytics, interfacing with discord.js",
+  "main": "index.js",
+  "scripts": {
+    "lint": "npx eslint index.js"
+  },
+  "repository": "github:diogoscf/prismajs",
+  "keywords": [
+    "prismalytics",
+    "discord.js"
+  ],
+  "author": "diogoscf <diogo@diogos.cf> (https://diogos.cf/)",
+  "license": "MIT",
+  "bugs": "https://github.com/diogoscf/prismajs/issues",
+  "homepage": "https://github.com/diogoscf/prismajs",
+  "dependencies": {
+    "node-fetch": "^2.6.0"
+  }
+}
