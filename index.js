@@ -33,7 +33,7 @@ class Prismalytics {
       this.commands[message] = 1;
     }
 
-    if (this.saveServer) {
+    if (this.saveServer && msg.guild) {
       const serverMatch = this.servers.findIndex((el) => el.name === msg.guild.name);
       if (serverMatch === -1 || serverMatch === undefined) {
         const newServer = {
